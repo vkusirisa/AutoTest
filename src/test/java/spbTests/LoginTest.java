@@ -13,7 +13,7 @@ public class LoginTest extends BaseTests {
    }
 
     @Test
-    @Description("Авторизация в интернет банке БСБП")
+    @Description("Авторизация  в интернет банке БСБП")
     void loginTest2(){
         baseSteps.blockCard();
         baseSteps.unlockCard();
